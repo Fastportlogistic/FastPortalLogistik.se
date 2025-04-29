@@ -1,0 +1,75 @@
+/* Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+#main-header {
+    background: url('symbol.png') no-repeat center center/cover;
+    color: white;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 50px;
+}
+
+.header-content {
+    background-color: #FF6600;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #FF6600;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Sektioner (Mission, Tjänster, Varför, Kontakt) */
+.section {
+    padding: 50px;
+    font-size: 1.5rem; /* Större text */
+    background: linear-gradient(90deg, #ffe0b2 0%, #ffcc80 100%);
+    color: #333;
+    min-height: 60vh;
+}
+
+/* Bilder */
+.responsive-image {
+    max-width: 300px; /* Max 300px bredd */
+    height: auto;
+    float: right; /* Flyttas till höger */
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}
